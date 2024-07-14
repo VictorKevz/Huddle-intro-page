@@ -1,0 +1,56 @@
+.hero-wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 8rem;
+    gap: 5.3rem;
+}
+.hero-img{
+    margin-left: 1px;
+}
+.hero-text-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 515px;
+    margin-top: 4.4rem;
+opacity: .95;
+}
+.hero-title{
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -.24px;
+
+    
+}
+.hero-parag{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    line-height: 1.5;
+
+   
+}
+.hero-CTA{
+    max-width: 199px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.8rem;
+    background-color: white;
+    text-decoration: none;
+    color: var(--violet);
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-top: 2.4rem;
+    padding-bottom: 3.1px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1);
+
+}
+.hero-CTA:hover{
+    transform: scale(1.1);
+    background-color:var(--soft-magenta);
+    color: white;
+}
